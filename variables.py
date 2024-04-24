@@ -1,4 +1,4 @@
-#day 2:30 days of python
+#day 2: 30 days of python
 # level 1
 #declaring multiple variables in a single line
 first_name,last_name,full_name,country,city,Age,year,is_married,is_true,is_light_on = 'Milliyon','Gebrehiwot','Milliyon Gebrehiwot','Ethiopia','Addis Ababa',23,2016,False,True,'yes'
@@ -72,8 +72,23 @@ print(area_of_circle)
 print(circum_of_cirlce)
 
 #we can also import the librery 'math' and use pi from the libraray
+#taking user input for radius
 
 import math
 new_PI = math.pi
-print(new_PI)
+Radius_ = float(input('enter the radius'))
 
+Area_of_Circle = new_PI*Radius_**2
+circumference = 2*new_PI*Radius_
+print('the area of the circle is',Area_of_Circle)
+print('the circumference is',circumference)
+
+
+
+#takin user input for first name,last name, country and age(float func for numbers)
+
+
+firstname=input()
+lastname=input()
+yourcountry=input()
+age=float(input())
