@@ -88,7 +88,7 @@ print('the circumference is',circumference)
 #takin user input for first name,last name, country and age(float func for numbers)
 
 
-firstname=input()
-lastname=input()
-yourcountry=input()
-age=float(input())
+firstname=input('enter first name')
+lastname=input('enter last name')
+yourcountry=input('enter your country')
+age=float(input('enter your age'))
